@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Register</string>
+    <string name="new_user_text">Add a new user</string>
+    <string name="button_text">save</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_phone">Enter your phone number</string>
+    <string-array name="person_name">
+
+        <item>Monir</item>
+        <item>Kakan</item>
+        <item>Sunny</item>
+        <item>Mushfiq</item>
+        <item>Sinthia</item>
+
+    </string-array>
+    <string-array name="person_email">
+
+        <item>monir@iquantile.com</item>
+        <item>kakan@iquantile.com</item>
+        <item>sunny@iquantile.com</item>
+        <item>mushfiq@iquantile.com</item>
+        <item>sinthia@iquantile.com</item>
+
+    </string-array>
+    <string-array name="person_phone">
+
+        <item>01685069777</item>
+        <item>01685069778</item>
+        <item>01685069779</item>
+        <item>01685069770</item>
+        <item>01685069771</item>
+
+    </string-array>
+
+</resources>
