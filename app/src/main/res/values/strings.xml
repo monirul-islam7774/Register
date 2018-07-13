@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Register</string>
+    <string name="app_name">iQuantile Contacts</string>
     <string name="new_user_text">Add a new user</string>
     <string name="button_text">save</string>
     <string name="hint_name">Enter your name</string>
