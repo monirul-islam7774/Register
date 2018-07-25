@@ -3,6 +3,7 @@ package com.example.monirul.registercustomadapter;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,10 +26,6 @@ public class DemoActivity extends AppCompatActivity implements View.OnClickListe
     Button regButton;
     ArrayList<Person> contacts;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +43,9 @@ public class DemoActivity extends AppCompatActivity implements View.OnClickListe
         listView.setAdapter(adapter);
 
         regButton.setOnClickListener(this);
+
     }
+
 
     @Override
     public void onClick(View view) {
@@ -55,10 +54,9 @@ public class DemoActivity extends AppCompatActivity implements View.OnClickListe
 
             Intent intent = new Intent(DemoActivity.this,RegisterActivity.class);
             startActivityForResult(intent,1);
-
         }
-
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
